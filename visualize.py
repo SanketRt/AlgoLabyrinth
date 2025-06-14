@@ -6,6 +6,9 @@ from algorithms.bfs import bfs
 from algorithms.dfs import dfs
 from algorithms.dijkstra import dijkstra
 from algorithms.astar import astar
+import os
+
+os.environ['SDL_VIDEO_WINDOW_POS'] = "100,200"
 
 CELL_SIZE = 12  # pixel size of each maze cell
 MAZE_WIDTH, MAZE_HEIGHT = 41, 31  
