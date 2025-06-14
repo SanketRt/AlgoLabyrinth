@@ -42,10 +42,11 @@ pip install -r requirements.txt
 1. **Clone the repo**:
 
    ```bash
+    git clone [https://github.com/SanketRt/AlgoLabyrinth.git](https://github.com/SanketRt/AlgoLabyrinth.git)
+    cd Labyrinth
    ```
 
-git clone [https://github.com/yourusername/MazeRace.git](https://github.com/yourusername/MazeRace.git)
-cd MazeRace
+
 
 ````
 2. **Create & activate venv**:
@@ -58,9 +59,10 @@ pip install -r requirements.txt
 3. **Run the visualizer**:
 
    ```bash
+python3 visualize.py
    ```
 
-python visualize.py
+
 
 ````
 You should see a window with four evolving mazes.
