@@ -107,4 +107,4 @@ Please open an issue or PR.
 
 ## 📄 License
 
-MIT © Your Name
+MIT © Sanket Rout
