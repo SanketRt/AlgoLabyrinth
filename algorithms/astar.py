@@ -10,10 +10,11 @@ def astar(grid, start, goal):
     parent = {}
     order = []
     visited = set()
-    pq = [(heuristic(start, goal), start)]
+    pq = [(heuristic(start, goal),heuristic(start, goal), start)]
 
     while pq:
-        f, u = heapq.heappop(pq)
+        
+        f, h_v, u = heapq.heappop(pq)
         if u in visited:
             continue
         visited.add(u)
@@ -33,7 +34,8 @@ def astar(grid, start, goal):
                 g_score[v] = tentative
                 parent[v] = u
                 f_score = tentative + heuristic(v, goal)
-                heapq.heappush(pq, (f_score, v))
+                h_v = heuristic(v, goal)
+                heapq.heappush(pq, (tentative + h_v, h_v, v))
 
     path = []
     if goal in parent or start == goal:

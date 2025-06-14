@@ -11,7 +11,7 @@ def generate_maze(width: int, height: int) -> np.ndarray:
     """
     # Start with all walls
     maze = np.ones((height, width), dtype=bool)
-
+    random.seed(1)
     def carve(r: int, c: int):
         maze[r, c] = False
         directions = [(0, 2), (2, 0), (0, -2), (-2, 0)]
