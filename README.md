@@ -40,13 +40,13 @@ pip install -r requirements.txt
 ## 🚀 Getting Started
 
 1. **Clone the repository**:
-   ```bash
-git clone https://github.com/YourUsername/AlgoViz.git
+```bash
+git clone https://github.com/SanketRt/AlgoViz.git
 cd AlgoViz
 ```
 
 2. **Create & activate a virtual environment**:
-   ```bash
+```bash
 python3 -m venv .venv
 source .venv/bin/activate    # Windows: .venv\Scripts\Activate.ps1
 pip install -r requirements.txt
