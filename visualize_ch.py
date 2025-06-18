@@ -58,7 +58,9 @@ def main():
         for x, y in frame_j["points"]:
             pygame.draw.circle(screen, (200, 200, 200), (x, y), 5)
         if len(frame_j["hull"]) > 1:
-            pygame.draw.lines(screen, (0, 255, 0), False, frame_j["hull"], 2)
+            # Close the hull by connecting last back to first
+            hull_pts = frame_j["hull"]
+            pygame.draw.lines(screen, (0, 255, 0), True, hull_pts, 2)
         if "current" in frame_j:
             cx, cy = frame_j["current"]
             pygame.draw.circle(screen, (255, 0, 0), (cx, cy), 6)
@@ -72,8 +74,9 @@ def main():
         for x, y in frame_g["points"]:
             pygame.draw.circle(screen, (200, 200, 200), (x + offset, y), 5)
         if len(frame_g["hull"]) > 1:
-            pygame.draw.lines(screen, (0, 255, 0), False,
-                              [(x + offset, y) for x, y in frame_g["hull"]], 2)
+            # Close the hull by connecting last back to first
+            hull_pts_g = [(x + offset, y) for x, y in frame_g["hull"]]
+            pygame.draw.lines(screen, (0, 255, 0), True, hull_pts_g, 2)
         if "current" in frame_g:
             cx, cy = frame_g["current"]
             pygame.draw.circle(screen, (255, 0, 0), (cx + offset, cy), 6)
