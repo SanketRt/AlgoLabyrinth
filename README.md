@@ -43,16 +43,16 @@ pip install -r requirements.txt
 
 1. **Clone the repository**
 
-   ```bash
-   ```
-
+```bash
 git clone [https://github.com/SanketRt/AlgoViz.git](https://github.com/SanketRt/AlgoViz.git)
 cd AlgoViz
+```
 
-````
+
+
 
 2. **Create & activate a virtual environment**  
-   ```bash
+```bash
 python3 -m venv .venv
 source .venv/bin/activate    # Windows: .venv\Scripts\Activate.ps1
 pip install -r requirements.txt
@@ -86,17 +86,17 @@ Generate and solve Sudoku puzzles via backtracking:
 
 * **Easy Mode** (25 blanks):
 
-  ```bash
-  python3 visualize_sudoku_easy.py
-  ```
+```bash
+python3 visualize_sudoku_easy.py
+```
 
   Saves `sudoku_solver_easy.gif`.
 
 * **Medium Mode** (40 blanks):
 
-  ```bash
-  python3 visualize_sudoku_med.py
-  ```
+```bash
+python3 visualize_sudoku_med.py
+```
 
   Saves `sudoku_solver_med.gif`.
 
@@ -117,12 +117,5 @@ Generate and solve Sudoku puzzles via backtracking:
 * **Maze Solver**: Use a screen capture tool (e.g. LICEcap or `ffmpeg`) to record your run and place the GIF in `assets/`.
 * **Convex Hull & Sudoku**: GIFs are saved automatically by their scripts.
 
----
-
-
-
-Matplotlib windows will pop up showing exploration counts and solve times across maze sizes.
-
----
 
 
