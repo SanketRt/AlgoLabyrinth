@@ -1,5 +1,17 @@
 # AlgoViz: Algorithm Visualization Toolkit
 
+---
+
+![Maze Solver](assets/maze_quadrants.gif)
+
+![Convex Hull](assets/convex_hull_animation.gif)
+
+![Sudoku Easy](assets/sudoku_solver_easy.gif)
+
+![Sudoku Medium](assets/sudoku_solver_med.gif)
+
+---
+
 **AlgoViz** is a Python project that provides interactive, real-time visualizations for core algorithms in computer science, currently featuring:
 
 1. **Maze Solver Visualizer**: Generates random perfect mazes and solves them side by side with four classic graph-search algorithms.
@@ -100,17 +112,7 @@ python3 visualize_sudoku_med.py
 
   Saves `sudoku_solver_med.gif`.
 
----
 
-![Maze Solver](assets/maze_quadrants.gif)
-
-![Convex Hull](assets/convex_hull_animation.gif)
-
-![Sudoku Easy](assets/sudoku_solver_easy.gif)
-
-![Sudoku Medium](assets/sudoku_solver_med.gif)
-
----
 
 
 
