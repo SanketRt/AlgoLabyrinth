@@ -76,15 +76,11 @@ python3 visualize_ch.py
 
 ---
 
-
-```markdown
 ![Maze Solver](assets/maze_quadrants.gif)
-```
 
 ---
 
-```markdown
 ![Convex Hull](assets/convex_hull_animation.gif)
-```
+
 
 
