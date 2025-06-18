@@ -44,7 +44,7 @@ pip install -r requirements.txt
 1. **Clone the repository**
 
 ```bash
-git clone [https://github.com/SanketRt/AlgoViz.git](https://github.com/SanketRt/AlgoViz.git)
+git clone https://github.com/SanketRt/AlgoViz.git
 cd AlgoViz
 ```
 
