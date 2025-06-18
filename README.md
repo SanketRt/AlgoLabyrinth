@@ -8,7 +8,7 @@
 
 ---
 
-## 🔍 Features
+## Features
 
 | Visualizer        | Algorithms                                  | Layout                 |
 | ----------------- | ------------------------------------------- | ---------------------- |
@@ -23,7 +23,7 @@
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 * Python 3.9+
 * [NumPy](https://numpy.org/)
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 1. **Clone the repository**
 
@@ -58,7 +58,7 @@ source .venv/bin/activate    # Windows: .venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 ````
 
-### 🏃 Maze Solver Visualizer
+### Maze Solver Visualizer
 
 Launch the maze solver:
 
@@ -68,7 +68,7 @@ python3 visualize.py
 
 You’ll see a window divided into four quadrants showing BFS, DFS, Dijkstra, and A\* exploring and solving the same random maze.
 
-### 🏖 Convex Hull Visualizer
+### Convex Hull Visualizer
 
 Animate convex hull construction:
 
@@ -80,7 +80,7 @@ python3 visualize_ch.py
 * Right pane: **Graham Scan**
 * Auto-advances until both hulls complete, displays elapsed time, and saves `convex_hull_animation.gif`.
 
-### 🧩 Sudoku Solver Visualizer
+### Sudoku Solver Visualizer
 
 Generate and solve Sudoku puzzles via backtracking:
 
@@ -111,11 +111,6 @@ python3 visualize_sudoku_med.py
 ![Sudoku Medium](assets/sudoku_solver_med.gif)
 
 ---
-
-## 🔄 Generating GIF Previews
-
-* **Maze Solver**: Use a screen capture tool (e.g. LICEcap or `ffmpeg`) to record your run and place the GIF in `assets/`.
-* **Convex Hull & Sudoku**: GIFs are saved automatically by their scripts.
 
 
 
